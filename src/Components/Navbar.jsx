@@ -78,11 +78,11 @@ const Navbar = () => {
           }`}
           ref={menuRef}
         >
-          <a href="#">Pricing</a>
-          <a href="#">Product</a>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Community</a>
+           <Link to="/hero">Pricing</Link>
+            <Link to="/features">Product</Link>
+            <Link to="/testimonials">About</Link>
+            <Link to="/contact">Careers</Link>
+            <Link to="/testimonials">Community</Link>
         </div>
       </nav>
     </>
